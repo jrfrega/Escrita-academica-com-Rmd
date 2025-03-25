@@ -1,0 +1,33 @@
+/* 
+Estes comandos fazem os textos dos parágrafos serem 
+escritos na cor azul e terem a sua fonte aumentada em 10%.
+O texto será justificado às margens
+*/
+
+p {
+  color: blue;
+  font-size: 110%;
+  text-align: justify;
+}
+
+/* 
+Aqui mandamos criar um espaço de 10 cm ao final do corpo de texto
+e uma cor de fundo amarelo clara para melhorar a legibilidade 
+*/
+
+body { 
+  margin-bottom: 10cm;
+  # background-color: lightyellow;
+  background-color: #FFFF000F;
+}
+
+pre:not([class]) {
+  background-color: #0000FF10;
+}
+/* 
+Aqui aumentamos a fonte do sumário (Table of Contents --- TOC) 
+*/
+
+div#TOC {
+  font-size: 150%;
+}
