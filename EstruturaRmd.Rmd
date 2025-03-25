@@ -3,16 +3,16 @@ title: "Estrutura de um arquivo Rmd"
 author: "Prof. Frega"
 date: "25-03-2024"
 output:
-  html_document:
-    toc: yes
-    number_sections: yes
-    theme: cerulean
-    css: EstruturaRmd.css
   word_document: 
     toc: yes
   pdf_document: 
     toc: yes
     number_sections: yes
+  html_document:
+    toc: yes
+    number_sections: yes
+    theme: cerulean
+    css: EstruturaRmd.css
 ---
 
 ```{r setup, include=FALSE}
@@ -65,6 +65,8 @@ output:
 ---
 ````
 
+## Arquivos `CSS`
+
 Para arquivos no formato `HTML`, podemos inserir algumas formatações adicionais por meio de um arquivo de estilo, que tem o formato `CSS` (*Cascade Style Sheet*). Vamos criar um arquivo chamado `EstruturaRmd.css` e chamá-lo no cabeçalho `YAML` como 
 
 ````
@@ -105,6 +107,8 @@ body {
   background-color: lightyellow;
 }
 ````
+
+Maiores detalhes sobre arquivos `CSS` podem ser encontrados em [W3Schools](https://www.w3schools.com/css/css_intro.asp){target="_blank"}.
 
 # Inserindo código e texto
 
